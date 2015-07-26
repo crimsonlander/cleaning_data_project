@@ -1,11 +1,17 @@
 # Code Book
 
-## ID Fields
+## Names of variables in tidy_data.txt table
+
+The order is preserved.
+
+### ID Fields
 
 * `Subject` - The participant number
 * `Activity` - The label of the activity
 
-## Feature Means Fields
+### Feature Means Fields
+
+All variables are means of corresponding values from raw data, grouped by ID Fields. Numbers indicate number of feature from raw dataset.
 
 * `1 tBodyAcc-mean()-X`
 * `2 tBodyAcc-mean()-Y`
@@ -82,3 +88,4 @@
 * `SITTING` (value `4`)
 * `STANDING` (value `5`)
 * `LAYING` (value `6`)
+
